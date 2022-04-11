@@ -31,6 +31,7 @@ brew install jupyter;
 # Container
 brew install --cask docker;
 brew install minikube;
+brew install hyperkit; # VM driver
 brew install helm;
 
 # Cloud
