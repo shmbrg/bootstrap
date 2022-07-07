@@ -38,6 +38,11 @@ brew install helm;
 brew install --cask google-cloud-sdk;
 brew install vault;
 
+# install aws cli
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+rm AWSCLIV2.pkg
+
 # Browsers
 brew cask install google-chrome;
 
