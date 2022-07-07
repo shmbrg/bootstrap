@@ -33,6 +33,7 @@ brew install --cask docker;
 brew install minikube;
 brew install hyperkit; # VM driver
 brew install helm;
+brew install --cask rancher;
 
 # Cloud
 brew install --cask google-cloud-sdk;
