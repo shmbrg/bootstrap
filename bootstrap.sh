@@ -11,6 +11,10 @@ brew install tree;
 brew install gh;
 brew install speedtest --force;
 
+# java
+brew install java11;
+sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk;
+
 # dotfile manager
 brew install chezmoi;
 
@@ -19,7 +23,6 @@ brew install pyenv;
 brew install tfenv;
 # install poetry from scratch, brew will install python3.10 as dependency, which will be used in every venv
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
-
 
 # Code
 brew install --cask pycharm-ce;
