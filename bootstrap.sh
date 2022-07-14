@@ -10,6 +10,7 @@ brew install httpie;
 brew install tree;
 brew install gh;
 brew install speedtest --force;
+brew install openssl;
 
 # java
 brew install java11;
@@ -41,6 +42,7 @@ brew install --cask rancher;
 # Cloud
 brew install --cask google-cloud-sdk;
 brew install vault;
+brew install --no-dependencies azure-cli;
 
 # install aws cli
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
