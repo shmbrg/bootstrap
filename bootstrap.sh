@@ -1,20 +1,20 @@
 #!/bin/bash
 
 # install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # general
 brew install zsh;
 brew install iterm2;
-brew install httpie;
+#brew install httpie;
 brew install tree;
 brew install gh;
 brew install speedtest --force;
 brew install openssl;
 
 # java
-brew install java11;
-sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk;
+#brew install java11;
+#sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk;
 
 # dotfile manager
 brew install chezmoi;
@@ -23,38 +23,38 @@ brew install chezmoi;
 brew install pyenv;
 brew install tfenv;
 # install poetry from scratch, brew will install python3.10 as dependency, which will be used in every venv
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+#curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 
 # Code
-brew install --cask pycharm-ce;
+#brew install --cask pycharm-ce;
 brew install --cask visual-studio-code;
-brew install jupyter;
+#brew install jupyter;
 #brew tap dbt-labs/dbt,
 #brew install dbt;
 
 # Container
-brew install --cask docker;
-brew install minikube;
-brew install hyperkit; # VM driver
-brew install helm;
-brew install --cask rancher;
+#brew install --cask docker;
+#brew install minikube;
+#brew install hyperkit; # VM driver
+#brew install helm;
+#brew install --cask rancher;
 
 # Cloud
-brew install --cask google-cloud-sdk;
-brew install vault;
-brew install --no-dependencies azure-cli;
+#brew install --cask google-cloud-sdk;
+#brew install vault;
+#brew install --no-dependencies azure-cli;
 
 # install aws cli
-curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
-sudo installer -pkg AWSCLIV2.pkg -target /
-rm AWSCLIV2.pkg
+#curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+#sudo installer -pkg AWSCLIV2.pkg -target /
+#rm AWSCLIV2.pkg
 
 # Browsers
-brew cask install google-chrome;
+#brew cask install google-chrome;
 
 # Convenience
-brew install --cask bettertouchtool;
-brew install --cask 1password
+#brew install --cask bettertouchtool;
+#brew install --cask 1password
 
 # switch shell to zsh
 which zsh
