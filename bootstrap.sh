@@ -56,6 +56,11 @@ brew install --cask docker;
 brew install --cask bettertouchtool;
 brew install --cask 1password
 
+# Communications
+brew install --cask slack
+brew install --cask microsoft-outlook
+brew install --cask microsoft-teams
+
 # switch shell to zsh
 which zsh
 chsh -s /bin/zsh
