@@ -9,8 +9,8 @@ brew install iterm2;
 #brew install httpie;
 brew install tree;
 brew install gh;
-brew install speedtest --force;
-brew install openssl;
+#brew install speedtest --force;
+#brew install openssl;
 
 # java
 #brew install java11;
@@ -26,14 +26,14 @@ brew install tfenv;
 #curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 
 # Code
-#brew install --cask pycharm-ce;
+brew install --cask pycharm-ce;
 brew install --cask visual-studio-code;
 #brew install jupyter;
 #brew tap dbt-labs/dbt,
 #brew install dbt;
 
 # Container
-#brew install --cask docker;
+brew install --cask docker;
 #brew install minikube;
 #brew install hyperkit; # VM driver
 #brew install helm;
@@ -53,8 +53,8 @@ brew install --cask visual-studio-code;
 #brew cask install google-chrome;
 
 # Convenience
-#brew install --cask bettertouchtool;
-#brew install --cask 1password
+brew install --cask bettertouchtool;
+brew install --cask 1password
 
 # switch shell to zsh
 which zsh
